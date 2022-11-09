@@ -45,7 +45,7 @@
     .home {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 10px;
+        padding: 30px;
         margin: none;
     }
 
@@ -64,11 +64,14 @@
     }
 
     h2 {
-    font-size: 16px;
+    font-size: 18px;
     }
 
     .lastSec {
         grid-column: 1;
+        grid-row: 3;
+        padding: 10px;
+        margin: none;
     }
     
   }
