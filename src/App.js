@@ -11,8 +11,8 @@ function App() {
       <h1>Plan+Flow</h1>
       <p>Digitally plan your day.</p>
       <Nav />
-      <Home />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
