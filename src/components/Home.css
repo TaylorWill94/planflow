@@ -29,6 +29,7 @@
     padding: 50px;
     border: 1px white solid;
     background-color: rgb(9, 22, 9);
+    font-size: 22px;
   }
   
   .lastSec {
@@ -37,6 +38,7 @@
     padding: 50px;
     border: 1px white solid;
     background-color: rgb(9, 22, 9);
+    font-size: 22px;
   }
 
   @media only screen and (max-width: 600px) {
