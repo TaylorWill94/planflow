@@ -1,0 +1,35 @@
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(9, 22, 9);
+    padding: 1.25rem;
+    margin: 2.5rem;
+  }
+  
+  .mainSec {
+    grid-column: 2;
+    padding: 1.25rem;
+    background-color: rgb(9, 22, 9);
+  }
+  
+  h2 {
+    background-color: rgb(9, 22, 9);
+  }
+  
+  .subTitle {
+    background-color: rgb(9, 22, 9);
+  }
+  
+  
+  .subSection {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 1.25rem;
+    background-color: rgb(9, 22, 9);
+  }
+  
+  .lastSec {
+    padding: 20px;
+    background-color: rgb(9, 22, 9);
+  }
