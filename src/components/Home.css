@@ -5,6 +5,7 @@
     background-color: rgb(9, 22, 9);
     padding: 6.25rem;
     margin: 2.5rem;
+    
   }
   
   .mainSec {
@@ -14,6 +15,7 @@
   }
   
   h2 {
+    font-size: 32px;
     background-color: rgb(9, 22, 9);
   }
   
