@@ -5,4 +5,10 @@ nav {
 p {
     padding: 10px;
     display:inline-block;
+    transition-duration: 0.4s;
+    
+}
+
+p:hover {
+ color: rgb(29, 29, 59)
 }
