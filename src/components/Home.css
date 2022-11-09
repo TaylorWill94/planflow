@@ -49,8 +49,26 @@
         margin: none;
     }
 
+    .mainSec {
+        grid-column: 1;
+    }
+
+    .subSection {
+        grid-column: 1;
+        padding: 10px;
+        margin: none;
+    }
+
+    .subTitle {
+        font-size: 12px;
+    }
+
     h2 {
     font-size: 16px;
+    }
+
+    .lastSec {
+        grid-column: 1;
     }
     
   }
