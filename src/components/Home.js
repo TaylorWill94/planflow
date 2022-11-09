@@ -3,9 +3,17 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
+      <h2>Home</h2>
       <div className="mainSec">
-        <h2>Home</h2>
-        <p className="subTitle">Welcome to Plan+Flow</p>
+        <span>
+          Welcome to Plan+Flow
+          <br />
+          Build your life.
+          <br />
+          Organize your life
+          <br />
+          Plan+Flow
+        </span>
       </div>
       <div className="subSection">
         <p className="subTitle">
