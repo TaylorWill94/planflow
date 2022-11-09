@@ -75,3 +75,150 @@
     }
     
   }
+
+
+  @media only screen and (max-width: 618px) {
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        margin: none;
+    }
+
+    .mainSec {
+        grid-column: 1;
+    }
+
+    .subSection {
+        grid-column: 1;
+        padding: 10px;
+        margin: none;
+    }
+
+    .subTitle {
+        font-size: 12px;
+    }
+
+    h2 {
+    font-size: 18px;
+    }
+
+    .lastSec {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 10px;
+        margin: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 623px) {
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        margin: none;
+    }
+
+    .mainSec {
+        grid-column: 1;
+    }
+
+    .subSection {
+        grid-column: 1;
+        padding: 10px;
+        margin: none;
+    }
+
+    .subTitle {
+        font-size: 12px;
+    }
+
+    h2 {
+    font-size: 18px;
+    }
+
+    .lastSec {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 10px;
+        margin: none;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 636px) {
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        margin: none;
+    }
+
+    .mainSec {
+        grid-column: 1;
+    }
+
+    .subSection {
+        grid-column: 1;
+        padding: 10px;
+        margin: none;
+    }
+
+    .subTitle {
+        font-size: 12px;
+    }
+
+    h2 {
+    font-size: 18px;
+    }
+
+    .lastSec {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 10px;
+        margin: none;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 700px) {
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        margin: none;
+    }
+
+    .mainSec {
+        grid-column: 1;
+    }
+
+    .subSection {
+        grid-column: 1;
+        padding: 10px;
+        margin: none;
+    }
+
+    .subTitle {
+        font-size: 12px;
+    }
+
+    h2 {
+    font-size: 18px;
+    }
+
+    .lastSec {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 10px;
+        margin: none;
+    }
+    
+  }
