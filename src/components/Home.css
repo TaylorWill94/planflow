@@ -1,305 +1,284 @@
-
 .home {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(9, 22, 9);
-    padding: 6.25rem;
-    margin: 2.5rem;
-    
-  }
-  
-  .mainSec {
-    height: 1.2rem;
-    line-height: 1.2rem;
-    width: 20em;
-    background-color: rgb(9, 22, 9);
-    position: relative;
-    overflow: hidden;
-    background-color: rgb(9, 22, 9);
-    grid-column: 2;
-    grid-row: 2;
-    
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(9, 22, 9);
+  padding: 6.25rem;
+  margin: 2.5rem;
+}
 
-  .mainSec > span {
-    position: absolute;
+.mainSec {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  width: 20em;
+  background-color: rgb(9, 22, 9);
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(9, 22, 9);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mainSec > span {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;
+  font-weight: bold;
+  background-color: rgb(9, 22, 9);
+}
+
+@keyframes slide {
+  0% {
     top: 0;
-    animation: slide 5s infinite;
-    font-weight: bold;
-    background-color: rgb(9, 22, 9);
-    
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+
+h2 {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 32px;
+  background-color: rgb(9, 22, 9);
+}
+
+.subTitle {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(9, 22, 9);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.subSection {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 50px;
+  border: 1px white solid;
+  background-color: rgb(9, 22, 9);
+  font-size: 22px;
+}
+
+.lastSec {
+  grid-column: 3;
+  grid-row: 2;
+  padding: 50px;
+  border: 1px white solid;
+  background-color: rgb(9, 22, 9);
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: none;
   }
 
-    @keyframes slide {
-      0% {
-        top: 0;
-      }
-      25% {
-        top: -1.2em;
-      }
-      50% {
-        top: -2.4em;
-      }
-      75% {
-        top: -3.6em;
-      }
-    }
-  
-  
-  h2 {
-    grid-column: 2;
-    grid-row: 1;
-    font-size: 32px;
-    background-color: rgb(9, 22, 9);
+  .mainSec {
+    grid-column: 1;
   }
-  
-  .subTitle {
-    position: relative;
-    overflow: hidden;
-    background-color: rgb(9, 22, 9);
-    grid-column: 2;
-    grid-row: 2;
-  }
-  
-  
+
   .subSection {
     grid-column: 1;
-    grid-row: 2;
-    padding: 50px;
-    border: 1px white solid;
-    background-color: rgb(9, 22, 9);
-    font-size: 22px;
+    padding: 10px;
+    margin: none;
   }
-  
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
   .lastSec {
-    grid-column: 3;
-    grid-row: 2;
-    padding: 50px;
-    border: 1px white solid;
-    background-color: rgb(9, 22, 9);
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin: none;
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: none;
+  }
+
+  .mainSec {
+    grid-column: 1;
+  }
+
+  .subSection {
+    grid-column: 1;
+    padding: 10px;
+    margin: none;
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .lastSec {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin: none;
+  }
+}
+
+@media only screen and (max-width: 623px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: none;
+  }
+
+  .mainSec {
+    grid-column: 1;
+  }
+
+  .subSection {
+    grid-column: 1;
+    padding: 10px;
+    margin: none;
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .lastSec {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin: none;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: none;
+  }
+
+  .mainSec {
+    grid-column: 1;
+  }
+
+  .subSection {
+    grid-column: 1;
+    padding: 10px;
+    margin: none;
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .lastSec {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: none;
+  }
+
+  .mainSec {
+    grid-column: 1;
+  }
+
+  .subSection {
+    grid-column: 1;
+    padding: 10px;
+    margin: none;
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .lastSec {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    margin: none;
+  }
+
+  .mainSec {
+    grid-column: 1;
+  }
+
+  .subSection {
+    grid-column: 1;
+    padding: 10px;
+    margin: none;
+  }
+
+  .subTitle {
+    font-size: 16px;
+  }
+
+  h2 {
     font-size: 22px;
   }
 
-  @media only screen and (max-width: 600px) {
-
-    .home {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin: none;
-    }
-
-    .mainSec {
-        grid-column: 1;
-    }
-
-    .subSection {
-        grid-column: 1;
-        padding: 10px;
-        margin: none;
-    }
-
-    .subTitle {
-        font-size: 12px;
-    }
-
-    h2 {
-    font-size: 18px;
-    }
-
-    .lastSec {
-        grid-column: 1;
-        grid-row: 3;
-        padding: 10px;
-        margin: none;
-    }
-    
+  .lastSec {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    margin: none;
   }
+}
 
-
-  @media only screen and (max-width: 618px) {
-
-    .home {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin: none;
-    }
-
-    .mainSec {
-        grid-column: 1;
-    }
-
-    .subSection {
-        grid-column: 1;
-        padding: 10px;
-        margin: none;
-    }
-
-    .subTitle {
-        font-size: 12px;
-    }
-
-    h2 {
-    font-size: 18px;
-    }
-
-    .lastSec {
-        grid-column: 1;
-        grid-row: 3;
-        padding: 10px;
-        margin: none;
-    }
-    
-  }
-
-  @media only screen and (max-width: 623px) {
-
-    .home {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin: none;
-    }
-
-    .mainSec {
-        grid-column: 1;
-    }
-
-    .subSection {
-        grid-column: 1;
-        padding: 10px;
-        margin: none;
-    }
-
-    .subTitle {
-        font-size: 12px;
-    }
-
-    h2 {
-    font-size: 18px;
-    }
-
-    .lastSec {
-        grid-column: 1;
-        grid-row: 3;
-        padding: 10px;
-        margin: none;
-    }
-    
-  }
-
-
-  @media only screen and (max-width: 636px) {
-
-    .home {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin: none;
-    }
-
-    .mainSec {
-        grid-column: 1;
-    }
-
-    .subSection {
-        grid-column: 1;
-        padding: 10px;
-        margin: none;
-    }
-
-    .subTitle {
-        font-size: 12px;
-    }
-
-    h2 {
-    font-size: 18px;
-    }
-
-    .lastSec {
-        grid-column: 1;
-        grid-row: 3;
-        padding: 10px;
-        margin: none;
-    }
-    
-  }
-
-
-  @media only screen and (max-width: 700px) {
-
-    .home {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin: none;
-    }
-
-    .mainSec {
-        grid-column: 1;
-    }
-
-    .subSection {
-        grid-column: 1;
-        padding: 10px;
-        margin: none;
-    }
-
-    .subTitle {
-        font-size: 12px;
-    }
-
-    h2 {
-    font-size: 18px;
-    }
-
-    .lastSec {
-        grid-column: 1;
-        grid-row: 3;
-        padding: 10px;
-        margin: none;
-    }
-    
-  }
-
-  @media only screen and (max-width: 800px) {
-
-    .home {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin: none;
-    }
-
-    .mainSec {
-        grid-column: 1;
-    }
-
-    .subSection {
-        grid-column: 1;
-        padding: 10px;
-        margin: none;
-    }
-
-    .subTitle {
-        font-size: 16px;
-    }
-
-    h2 {
-    font-size: 22px;
-    }
-
-    .lastSec {
-        grid-column: 1;
-        grid-row: 3;
-        padding: 10px;
-        margin: none;
-    }
-    
-  }
-
-  /* @media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
 
   .home {
     display: grid;

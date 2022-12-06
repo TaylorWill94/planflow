@@ -11,6 +11,9 @@ function Nav() {
         <p>About</p>
       </Link>
       <p>Contact</p>
+      <Link to="/shop">
+        <p>Shop</p>
+      </Link>
     </div>
   );
 }
