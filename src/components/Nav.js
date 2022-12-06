@@ -15,7 +15,12 @@ function Nav() {
       <Link to="/shop">
         <p>Shop</p>
       </Link>
-      <HashLink to="/#impact">
+      <HashLink
+        to="/#impact"
+        scroll={(el) =>
+          el.scrollIntoView({ behavior: "smooth", block: "start" })
+        }
+      >
         <p>Impact</p>
       </HashLink>
     </div>
