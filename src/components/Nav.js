@@ -21,7 +21,7 @@ function Nav() {
           el.scrollIntoView({ behavior: "smooth", block: "start" })
         }
       >
-        <p>Impact</p>
+        <p>Making An Impact</p>
       </HashLink>
     </div>
   );
