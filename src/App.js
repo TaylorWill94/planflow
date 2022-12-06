@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
@@ -10,7 +11,9 @@ import Shop from "./components/Shop";
 function App() {
   return (
     <div className="App">
-      <h1>Plan+Flow</h1>
+      <Link to="/">
+        <h1>Plan+Flow</h1>
+      </Link>
       <p>Digitally plan your day.</p>
       <Nav />
       <Routes>
