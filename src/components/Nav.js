@@ -14,6 +14,9 @@ function Nav() {
       <Link to="/shop">
         <p>Shop</p>
       </Link>
+      <Link to="/#impact">
+        <p>Impact</p>
+      </Link>
     </div>
   );
 }

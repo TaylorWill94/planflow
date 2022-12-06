@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home">
-        <h2>Making An Impact</h2>
+        <h2 id="impact">Making An Impact</h2>
         <div className="mainSec">
           <span>
             Welcome to Plan+Flow
