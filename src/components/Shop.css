@@ -1,20 +1,14 @@
 .shop {
-  background-color: white;
-  flex-direction: column;
-  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+
+  /* justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start; */
 }
 
-.product1 {
-  background-color: white;
-  color: red;
-}
-
-.product2 {
-  background-color: white;
-  color: red;
-}
-
-.product3 {
-  background-color: white;
-  color: red;
+.product {
+  margin: 10px;
 }
