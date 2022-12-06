@@ -1,4 +1,5 @@
 import "./Nav.css";
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 function Nav() {
@@ -14,9 +15,9 @@ function Nav() {
       <Link to="/shop">
         <p>Shop</p>
       </Link>
-      <Link to="/#impact">
+      <HashLink to="/#impact">
         <p>Impact</p>
-      </Link>
+      </HashLink>
     </div>
   );
 }
